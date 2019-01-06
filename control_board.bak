@@ -164,17 +164,6 @@ F 3 "~" H 5800 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R4
-U 1 1 5BF62025
-P 5800 3550
-F 0 "R4" V 5595 3550 50  0000 C CNN
-F 1 "1k" V 5686 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5840 3540 50  0001 C CNN
-F 3 "~" H 5800 3550 50  0001 C CNN
-	1    5800 3550
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_US R1
 U 1 1 5BF6265D
 P 5800 3250
@@ -205,8 +194,6 @@ Wire Wire Line
 	5950 3350 6050 3350
 Wire Wire Line
 	6050 3450 5950 3450
-Wire Wire Line
-	5950 3550 6050 3550
 Wire Wire Line
 	4900 3350 5150 3350
 Wire Wire Line
@@ -455,8 +442,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 3450 5650 3450
 Wire Wire Line
-	5350 3550 5650 3550
-Wire Wire Line
 	4900 3800 5450 3800
 Wire Wire Line
 	5450 3800 5450 2350
@@ -690,4 +675,6 @@ Wire Wire Line
 	2850 3450 2850 3150
 Connection ~ 2850 3450
 Connection ~ 2850 3150
+Wire Wire Line
+	5350 3550 6050 3550
 $EndSCHEMATC
